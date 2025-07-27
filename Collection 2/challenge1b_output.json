@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "input_documents": [
+      "file 1.pdf",
+      "file 2.pdf",
+      "file 3.pdf",
+      "file 4.pdf",
+      "file 5.pdf",
+      "file 6.pdf",
+      "file 7.pdf",
+      "file 8.pdf"
+    ],
+    "persona": "Military Historian",
+    "job_to_be_done": "Extract key strategies, turning points, and leadership insights from Alexander’s campaigns for comparative analysis with modern warfare.",
+    "processing_timestamp": "2025-07-27T13:46:51.780902"
+  },
+  "extracted_sections": [
+    {
+      "document": "file 1.pdf",
+      "section_title": "Alexander the Great The World Generals Series “Palgrave’s World Generals Series ...",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "file 2.pdf",
+      "section_title": "Prologue Around midnight on the last day of September in 331 BC, on  a mountain ...",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "file 3.pdf",
+      "section_title": "8 Ω ALEXANDER THE GREAT As it had been the Athenians who met the Persians at Mar...",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "file 4.pdf",
+      "section_title": "Philip was more staid in his words, Alexander in his actions. The son felt readi...",
+      "importance_rank": 4,
+      "page_number": 1
+    },
+    {
+      "document": "file 5.pdf",
+      "section_title": "time for domestic consumption. The ﬁrst- and second-century writers upon whom we...",
+      "importance_rank": 5,
+      "page_number": 1
+    },
+    {
+      "document": "file 6.pdf",
+      "section_title": "*John Clark Ridpath in History of the World (New York: Philips and Hunt, 1885), ...",
+      "importance_rank": 6,
+      "page_number": 1
+    },
+    {
+      "document": "file 7.pdf",
+      "section_title": "48 Ω ALEXANDER THE GREAT Darius may have done everything right in his preparatio...",
+      "importance_rank": 7,
+      "page_number": 1
+    },
+    {
+      "document": "file 8.pdf",
+      "section_title": "58 Ω ALEXANDER THE GREAT When the siege engines pulled back, Alexander sent in t...",
+      "importance_rank": 8,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "file 1.pdf",
+      "refined_text": "Alexander the Great The World Generals Series “Palgrave’s World Generals Series will feature great leaders whose rep- utations have transcended their own nations, whose bold characters led to new forms of combat, whose determination and courage gave shape to new dynasties and civilizations—men whose creativity and courage inspired multitudes. Beginning with illustrious World War II German Field Marshall Irwin Rommel, known as the Desert Fox, the series will shed new light on famous warrior-leaders like Napoleon, Frederick the Great, Alexander, Julius Caesar, Genghis Khan, drawing out the many important leadership lessons that are still relevant to our lives today.” —Gen. Clark This distinguished new series will feature the lives of eminent military leaders from around the world who changed history.",
+      "page_number": 1
+    },
+    {
+      "document": "file 2.pdf",
+      "refined_text": "Prologue Around midnight on the last day of September in 331 BC, on  a mountain somewhere east of the modern Iraqi city of Mosul, a group of Macedonian ofﬁcers took a walk. They went to the edge of a cliff to look out at the vast encampment of their enemy at a place called Gaugamela. What they saw made their blood run cold.",
+      "page_number": 1
+    },
+    {
+      "document": "file 3.pdf",
+      "refined_text": "8 Ω ALEXANDER THE GREAT As it had been the Athenians who met the Persians at Marathon, it was the Spartans who met the Persians at Thermopylae. Speciﬁcally, it was Sparta’s King Leonidas I, the core of whose force included 300 men of his elite bodyguard. The narrow pass at Thermopylae greatly beneﬁted the defenders, and the Persian advance sputtered to a bloody halt.",
+      "page_number": 1
+    },
+    {
+      "document": "file 4.pdf",
+      "refined_text": "Philip was more staid in his words, Alexander in his actions. The son felt readier and nobler impulses to spare the conquered; the father showed no mercy even to his allies. The father was more inclined to frugality, the son to luxury.",
+      "page_number": 1
+    },
+    {
+      "document": "file 5.pdf",
+      "refined_text": "time for domestic consumption. The ﬁrst- and second-century writers upon whom we rely for most of our information about Alexander de- pended in turn on contemporary Greek sources, who likely repeated data that was deliberately skewed to let the folks back home believe Alexander was winning great battles against immense opposition, and that he was doing so with minimal losses. It is too bad that more accurate ﬁgures were not recorded, for Alexander truly was winning major victories against a great foe.",
+      "page_number": 1
+    },
+    {
+      "document": "file 6.pdf",
+      "refined_text": "*John Clark Ridpath in History of the World (New York: Philips and Hunt, 1885), volume 1, chapter 47, calculates that there were 140,000 troops in the Persian army that marched out of Susa in 333 BC. TURNING POINT AT ISSUS Ω 41 with their lives. This year, Darius would do it himself, and he would do it right.",
+      "page_number": 1
+    },
+    {
+      "document": "file 7.pdf",
+      "refined_text": "48 Ω ALEXANDER THE GREAT Darius may have done everything right in his preparation, but everything on his left and center had now gone wrong. His left col- lapsed under the force of Alexander’s personal charge, and his center, which might have outﬂanked Alexander, was now being ﬂanked by him. His left wing had crumbled.",
+      "page_number": 1
+    },
+    {
+      "document": "file 8.pdf",
+      "refined_text": "58 Ω ALEXANDER THE GREAT When the siege engines pulled back, Alexander sent in triremes with archers and catapults to get as close as possible, even if it meant running aground, to support the infantry assault. Again leading from the front, Alexander himself headed the as- sault force that went ashore. Admetus’s contingent was the ﬁrst over the wall, but he was killed in action, struck by a spear.",
+      "page_number": 1
+    }
+  ]
+}

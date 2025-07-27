@@ -1,0 +1,23 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_002",
+    "test_case_name": "alexander_campaign_summary",
+    "description": "Military strategy and legacy of Alexander the Great"
+  },
+  "documents": [
+    { "filename": "file 1.pdf", "title": "Alexander - Granicus and Early Campaigns" },
+    { "filename": "file 2.pdf", "title": "Alexander - Siege of Miletus and Halicarnassus" },
+    { "filename": "file 3.pdf", "title": "Alexander - Strategic Decisions and March" },
+    { "filename": "file 4.pdf", "title": "Alexander - Pre-Issus Preparation" },
+    { "filename": "file 5.pdf", "title": "Alexander - Granicus to Gordium" },
+    { "filename": "file 6.pdf", "title": "Alexander - Battle of Issus" },
+    { "filename": "file 7.pdf", "title": "Alexander - Aftermath of Issus" },
+    { "filename": "file 8.pdf", "title": "Alexander - Siege of Tyre and Gaza" }
+  ],
+  "persona": {
+    "role": "Military Historian"
+  },
+  "job_to_be_done": {
+    "task": "Extract key strategies, turning points, and leadership insights from Alexander’s campaigns for comparative analysis with modern warfare."
+  }
+}

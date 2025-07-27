@@ -1,0 +1,42 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_003",
+    "test_case_name": "swann_in_love_summary"
+  },
+  "documents": [
+    {
+      "filename": "file 1.pdf",
+      "title": "Swann in Love - Part 1"
+    },
+    {
+      "filename": "file 2.pdf",
+      "title": "Swann in Love - Part 2"
+    },
+    {
+      "filename": "file 3.pdf",
+      "title": "Swann in Love - Part 3"
+    },
+    {
+      "filename": "file 4.pdf",
+      "title": "Swann in Love - Part 4"
+    },
+    {
+      "filename": "file 5.pdf",
+      "title": "Swann in Love - Part 5"
+    },
+    {
+      "filename": "file 6.pdf",
+      "title": "Swann in Love - Part 6"
+    },
+    {
+      "filename": "file 7.pdf",
+      "title": "Swann in Love - Part 7"
+    }
+  ],
+  "persona": {
+    "role": "Literary Analyst"
+  },
+  "job_to_be_done": {
+    "task": "Summarize the key emotional transitions and relationship dynamics in the story of Swann and Odette."
+  }
+}

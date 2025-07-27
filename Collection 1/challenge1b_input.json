@@ -1,0 +1,47 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_decline_empire",
+    "test_case_name": "roman_empire_decline",
+    "description": "The Decline and Fall of the Roman Empire Analysis"
+  },
+  "documents": [
+    {
+      "filename": "decline_copy-1-11.pdf",
+      "title": "Decline of the Roman Empire (Pages 1–11)"
+    },
+    {
+      "filename": "decline_copy-12-20.pdf",
+      "title": "Decline of the Roman Empire (Pages 12–20)"
+    },
+    {
+      "filename": "decline_copy-21-30.pdf",
+      "title": "Decline of the Roman Empire (Pages 21–30)"
+    },
+    {
+      "filename": "decline_copy-31-40.pdf",
+      "title": "Decline of the Roman Empire (Pages 31–40)"
+    },
+    {
+      "filename": "decline_copy-41-50.pdf",
+      "title": "Decline of the Roman Empire (Pages 41–50)"
+    },
+    {
+      "filename": "decline_copy-51-60.pdf",
+      "title": "Decline of the Roman Empire (Pages 51–60)"
+    },
+    {
+      "filename": "decline_copy-61-70.pdf",
+      "title": "Decline of the Roman Empire (Pages 61–70)"
+    },
+    {
+      "filename": "decline_copy-71-81.pdf",
+      "title": "Decline of the Roman Empire (Pages 71–81)"
+    }
+  ],
+  "persona": {
+    "role": "Historian"
+  },
+  "job_to_be_done": {
+    "task": "Extract and summarize key turning points and administrative decisions that contributed to the decline of the Roman Empire."
+  }
+}
