@@ -15,7 +15,7 @@ def extract_text_from_pdf(pdf_path):
             text += page.get_text()
         doc.close()
     except Exception as e:
-        print(f"❌ Error reading {pdf_path}: {e}")
+        print(f" Error reading {pdf_path}: {e}")
     return text
 
 def summarize_text(text):
@@ -33,7 +33,7 @@ def summarize_text(text):
 
         return summary
     except Exception as e:
-        print(f"⚠️ Error summarizing: {e}")
+        print(f" Error summarizing: {e}")
         return text.strip()[:300]
 
 def generate_output_json(collection_path):
@@ -59,11 +59,11 @@ def generate_output_json(collection_path):
         filename = doc["filename"]
         pdf_path = os.path.join(pdf_dir, filename)
 
-        print(f"📄 Processing: {filename}")
+        print(f" Processing: {filename}")
         text = extract_text_from_pdf(pdf_path)
 
         if not text.strip():
-            print(f"⚠️ Skipping empty: {filename}")
+            print(f" Skipping empty: {filename}")
             continue
 
         summary = summarize_text(text)
@@ -83,16 +83,16 @@ def generate_output_json(collection_path):
 
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
-    print(f"✅ challenge1b_output.json saved to: {output_json_path}")
+    print(f" challenge1b_output.json saved to: {output_json_path}")
 
 def main():
     start = time.time()
     for folder in os.listdir(ROOT_DIR):
         collection_path = os.path.join(ROOT_DIR, folder)
         if os.path.isdir(collection_path) and "PDFs" in os.listdir(collection_path) and "challenge1b_input.json" in os.listdir(collection_path):
-            print(f"\n🔍 Processing Collection: {folder}")
+            print(f"\n Processing Collection: {folder}")
             generate_output_json(collection_path)
-    print(f"\n✅ Done in {round(time.time() - start, 2)} seconds")
+    print(f"\n Done in {round(time.time() - start, 2)} seconds")
 
 if __name__ == "__main__":
     main()
